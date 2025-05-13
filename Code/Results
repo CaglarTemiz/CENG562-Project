@@ -1,0 +1,7 @@
+,Model,Best Parameters,Train R2,Test R2,Train MSE,Test MSE,Train RMSE,Test RMSE,Train MAE,Test MAE,Train MAPE,Test MAPE
+0,GradientBoosting,"{'learning_rate': 0.1, 'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 200}",1.0,1.0,0.0005,0.0211,0.0228,0.1452,0.0167,0.0792,0.4007,0.7268
+1,XGBoost,"{'colsample_bytree': 1.0, 'learning_rate': 0.1, 'max_depth': 9, 'min_child_weight': 5, 'n_estimators': 100, 'subsample': 1.0}",1.0,0.9998,0.008,0.4081,0.0892,0.6388,0.0463,0.2886,0.7331,1.1353
+2,AdaBoost,"{'learning_rate': 0.2, 'loss': 'square', 'n_estimators': 200}",0.9953,0.9955,9.4119,9.2449,3.0679,3.0405,2.5535,2.5071,162.1086,135.2391
+3,CatBoost,"{'bagging_temperature': 0.0, 'border_count': 50, 'depth': 4, 'iterations': 200, 'l2_leaf_reg': 3, 'learning_rate': 0.05}",0.9966,0.9948,6.7121,10.6695,2.5908,3.2664,1.4949,1.8164,17.2138,14.5276
+4,LightGBM,"{'colsample_bytree': 0.8, 'lambda_l1': 0, 'lambda_l2': 0, 'learning_rate': 0.05, 'max_bin': 63, 'max_depth': 5, 'min_child_samples': 50, 'n_estimators': 50, 'num_leaves': 15, 'subsample': 0.8}",0.9871,0.9911,25.8937,18.1156,5.0886,4.2562,2.7825,2.7091,81.4832,68.198
+5,RandomForest,"{'bootstrap': True, 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}",1.0,1.0,0.0115,0.0378,0.1073,0.1944,0.0346,0.086,0.1407,0.3125
