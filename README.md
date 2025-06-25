@@ -9,14 +9,14 @@ These studies use artificial neural networks (ANNs) and other models to learn no
 
 ---
 
-## 📁 Files
+## Files
 
 - `PGA_H_ForecastingML.ipynb`: Forecasts horizontal PGA from earthquake data.
 - `PGA_UD_ForecastingML.ipynb`: Forecasts vertical/up-down PGA from the same/similar dataset.
 
 ---
 
-## 🔍 Objective
+## Objective
 
 The goal is to provide a predictive framework for estimating PGA based on basic earthquake event parameters such as:
 
@@ -31,7 +31,7 @@ This is useful in rapid damage estimation and earthquake early warning systems.
 
 ---
 
-## 📊 Features
+## Features
 
 - Data cleaning and normalization  
 - Feature selection and correlation analysis  
@@ -44,7 +44,7 @@ This is useful in rapid damage estimation and earthquake early warning systems.
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 - Input Layer: Earthquake features (e.g., Mw, Depth, Lat/Lon, Time)  
 - Hidden Layers: Dense layers with ReLU activation  
@@ -55,7 +55,7 @@ This is useful in rapid damage estimation and earthquake early warning systems.
 
 ---
 
-## 📈 Sample Results
+## Sample Results
 
 | Metric        | PGA_H Model | PGA_UD Model |
 |---------------|-------------|--------------|
