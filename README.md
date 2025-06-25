@@ -74,3 +74,8 @@ This is useful in rapid damage estimation and earthquake early warning systems.
 ```bash
 git clone https://github.com/CaglarTemiz/ML-ANN_Study_to_Estimate_Earthquake_Intensity.git
 cd ML-ANN_Study_to_Estimate_Earthquake_Intensity
+
+
+## Acknowledgement
+
+This study was conducted as a term project for the course CENG 562: Machine Learning at Middle East Technical University (METU). The project involved the application of machine learning techniques—specifically artificial neural networks—to real-world earthquake engineering problems. We thank the course instructors and peers for their feedback and support throughout the semester.
